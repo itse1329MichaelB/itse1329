@@ -1,0 +1,5 @@
+fun getSum(a: Double, b: Double, c: Double): Double = a + b+ c
+
+fun main() {
+  println(getSum( a: 1.0, b: 2.1, c: 6.9))
+}
