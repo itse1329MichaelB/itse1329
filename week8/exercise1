@@ -1,0 +1,5 @@
+fun main() {
+  println(println(1))
+  //1
+  //kotlin.Unit
+}
