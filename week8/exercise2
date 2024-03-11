@@ -1,0 +1,14 @@
+fun f(w: Int, x: Int) = w + x
+
+fun g(y: String, z: String) = y + z
+
+fun h() = println("h()")
+
+fun main() {
+  val fVal: Int = f(1, 2)
+  val gVal: String = g("a", "bc")
+  val hVal: Unit = h()
+  println("Int")
+  println("String")
+  println("Unit")
+}
